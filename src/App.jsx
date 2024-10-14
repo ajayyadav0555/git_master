@@ -29,6 +29,9 @@ const Sidebar = () => {
             Dashboard
           </li>
           <li className="py-2 px-4 hover:bg-gray-700 rounded-md cursor-pointer">
+            work
+          </li>
+          <li className="py-2 px-4 hover:bg-gray-700 rounded-md cursor-pointer">
             Profile
           </li>
           <li className="py-2 px-4 hover:bg-gray-700 rounded-md cursor-pointer">
