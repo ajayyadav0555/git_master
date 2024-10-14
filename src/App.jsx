@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
+import NewCompo from './assets/comp/NewCompo';
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,6 +66,7 @@ const Sidebar = () => {
           <p>This is the content area. Resize the window to see the sidebar behavior.</p>
         </div>
       </div>
+      <NewCompo/>
     </div>
   );
 };
