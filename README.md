@@ -9,7 +9,10 @@ Currently, two official plugins are available:
 
 
 
-## i am adding here something
+## heyoo evryone welcome to my git  repo
+
+-yo AJ here
+
 ### Installation
 
 -coming from dev-Aj
