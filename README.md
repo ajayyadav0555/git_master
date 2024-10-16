@@ -9,8 +9,6 @@ Currently, two official plugins are available:
 
 
 
-## heyoo evryone welcome to my git  repo
-
--yo AJ here
-
+## i am adding here something222222222222222222222
+i am added 2 here
 ### Installation
