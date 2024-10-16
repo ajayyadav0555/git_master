@@ -9,9 +9,12 @@ Currently, two official plugins are available:
 
 
 
+## i am adding here something
 ## i am adding here something 111111111111111111111111
--- i added 1
+## heyoo evryone welcome to my git  repo
+### Installation
 ### not doing anything ok
-not done i made changbes
-
+-- i added 1
 -coming from dev-Aj
+-yo AJ here
+
