@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
-import NewCompo from './assets/comp/NewCompo';
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import NewCompo from "./assets/comp/NewCompo";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ const Sidebar = () => {
       {/* Sidebar */}
       <div
         className={`fixed top-0 left-0 h-full bg-gray-800 text-white w-64 transform ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
+          isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out lg:translate-x-0 lg:relative lg:w-full`}
       >
         <div className="flex justify-between">
@@ -47,13 +47,15 @@ const Sidebar = () => {
       {/* Content Area */}
       <div
         className={`flex-1 transition-all duration-300 ease-in-out ${
-          isOpen ? 'ml-64' : 'lg:ml-0'
+          isOpen ? "ml-64" : "lg:ml-0"
         }`}
       >
         {/* Mobile menu button */}
         <div className="lg:hidden p-4 bg-gray-100">
           <button
-            className={`text-gray-800 focus:outline-none ${isOpen ? 'hidden' : 'block'}`}
+            className={`text-gray-800 focus:outline-none ${
+              isOpen ? "hidden" : "block"
+            }`}
             onClick={toggleSidebar}
           >
             <FaBars className="text-2xl" />
@@ -62,11 +64,11 @@ const Sidebar = () => {
 
         {/* Main Content */}
         <div className="p-10 bg-gray-100 h-screen">
-          <h1 className="text-3xl font-bold">Main Content</h1>
-          <p>This is the content area. Resize the window to see the sidebar behavior.</p>
+          {/* <h1 className="text-3xl font-bold">Main Content</h1>
+          <p>This is the content area. Resize the window to see the sidebar behavior.</p> */}
+          <NewCompo />
         </div>
       </div>
-      <NewCompo/>
     </div>
   );
 };
